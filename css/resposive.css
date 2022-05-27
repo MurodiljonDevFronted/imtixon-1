@@ -390,10 +390,10 @@
 }
 
 .pitch-and-website{
-
+  position: relative;
 }
 .app-and-strategy{
- 
+ position: relative;
 }
 .pitch{
  position:relative;  
@@ -443,10 +443,10 @@
  top: 80px;
 }
 .strategy-title{
-  
+  position: relative;
 }
 .strategy-photo{
-  
+  position: relative;
 }
 .export-btn {
   position: relative;
