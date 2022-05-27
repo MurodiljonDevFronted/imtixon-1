@@ -290,15 +290,15 @@
   }
   .responsive-element_one{
     position: relative;
-    left:-41px;
+    left:-40px;
   }
   .responsive-element_two{
     position: relative;
-    left: 7px;
+    left: 8px;
   }
   .responsive-element_three{
     position: relative;
-    left: -9px;
+    left: -8px;
   }
   .customer-element_true{
     position: relative;
@@ -350,27 +350,35 @@
  
  .expert-title{
   position: relative;
-  top: -50px;
+  top: -150px;
 }
-.expert-title{
-  padding-bottom: 60px;
+.expert-title h2{
+  position: absolute;
+  left: 100px;
 }
 .expert-title p{
   width: 100%;
 }
-.expert-title p{
+.e-t_phoragraph{
   position: relative;
-  left: 100px;
-  top: 500px;
+  top: 20px;
+  right: 120px;
 }
-.expert-box{
-  position: relative;
+.e-t_phoragraph > p{
+  font-weight: 700;
+  font-size: 18px;
 }
-.expert-box{
-  padding:31px 0;
-}
-.expert-box{
+.row{
   display: flex;
+  flex-direction: column;
+}
+.between{
+  justify-content: none;
+}
+.expert-box{
+  height: 500px;
+}
+.expert-box{
   flex-direction: column;
   flex-wrap: wrap;
 }
@@ -382,76 +390,63 @@
 }
 
 .pitch-and-website{
- width: 100%;
- position:relative;
- left: 130px;
+
 }
 .app-and-strategy{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-.app-and-strategy{
- width: 100%;
- position:relative;
- left: 100px; 
+ 
 }
 .pitch{
-  padding-bottom: 24px;
-}
-.pitch-title{
-  width: 100%;
-  position: absolute;
-  top: 34px;
-  left: 110px;
-}
-.pitch-img{
-  position: relative;
-  right: 33px;
-}
-
-.website{
  position:relative;  
 }
-.website-title{
+.pitch-title{
+  width:50%;
+}
+.pitch-title{
+ position:absolute;
+ left:600px;
+}
+.pitch-img{
  width: 100%;
  position: absolute;
- top: 33px;
- left: 35px;
+}
+.website{
+ position: relative;
+ right: 20px;
+ bottom: 5px;
 }
 .website-photo{
-  width: 100%;
-  position: absolute;
-  left: 275px;
+ position:relative;
+ left:500px;
+}
+.row-rev{
+  flex-wrap: wrap-reverse;
+ flex-direction: row-reverse;
 }
 .app{
-  padding-bottom:24px;
-  position: relative;
+ position:relative;
+ left: 4px;
+ width: 100%;
 }
 .app-title{
-  width: 100%;
-  position: absolute;
-  top: 40px;
-  left: 30px;
+ margin-top: 23px;
+ margin-left: 13px;
+ position:absolute;
 }
 .app-photo{
-  width: 100%;
- position: absolute;
- left: 280px;
+ position:absolute;
+ top: 30px;
+ left: 10px;
 }
 .strategy{
-  position: relative;
-  top: 108px;
+ margin-top: 30px;
+ position: relative;
+ top: 80px;
 }
 .strategy-title{
-  width: 100%;
-  position: absolute;
-  top: 33px;
-  left:145px;
+  
 }
 .strategy-photo{
-  width: 100%;
-  position: absolute;
+  
 }
 .export-btn {
   position: relative;
@@ -462,4 +457,5 @@
    margin-left: 30px;
    margin-bottom: 20px;
 }
+
 }

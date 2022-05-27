@@ -120,7 +120,7 @@
 }
 @media only screen and (max-width:600px) {
   .container{
-    width: 80%;
+    width: 100%;
   }
   /* .col-xs,
   .col-xs-1,
